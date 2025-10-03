@@ -11,7 +11,7 @@ function App() {
   <h1>App component</h1>
   <Fruit/>
   <title />
-  <color/>
+  <Color/>
  </div>
  )
 }
@@ -29,7 +29,7 @@ function Fruit(){
      //</div>
   )
 }
-function color(){
+function Color(){
   return(
     <h1>Black color</h1>
   )
