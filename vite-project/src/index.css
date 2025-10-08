@@ -1,1 +1,26 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+button:hover {
+  background: #0056b3;
+}
+
